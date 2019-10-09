@@ -1,0 +1,23 @@
+body {
+    background-color: white
+}
+
+@media only screen and (max-width: 1000px){
+body {
+    background-color: blue;
+}
+}
+
+#intro{
+    width: 50%;
+    margin-left: 25%;
+    margin-right:25%;
+}
+@media only screen and (max-width: 500px){
+    #intro {
+        width: 90%;
+        margin-left: 10%;
+        margin-right:10%;
+        font-size: 2em;
+    }
+}
